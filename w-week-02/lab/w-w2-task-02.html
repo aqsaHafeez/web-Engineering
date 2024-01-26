@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <style>
+        body {
+            background-color: rgb(86, 126, 185);
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .box_content {
+            background-color: white;
+            width: 1000px;
+            display: flex;
+            padding: 20px;
+        }
+
+        .text {
+            margin-left: 20px;
+            max-width: 600px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        form {
+            margin-top: 40px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: rgb(86, 126, 185);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <center> <br>   
+            <h1 style="color: white;"> I am Aqsa Hafeez Agani</h1>
+            <h4 style="color: white;">Web Developer</h4>
+        </center>
+    </div> 
+
+    <div class="container">
+        <div class="box_content">
+            <div align="center"><h3>About me</h3>
+                <img src="Capture.JPG" alt="Profile Image"></div>
+            <div class="text" style="margin-top: 50px;">
+                <h3 style="font-size: large;">Introduction:</h3>
+                <p>
+                    Welcome to my web developer portfolio! I'm Aqsa, a passionate and detail-oriented web developer with a focus on creating interactive and user-friendly websites. With a strong foundation in front-end and back-end technologies, I bring ideas to life through clean, efficient, and modern code.
+                </p>
+                <h3 style="font-size: large;">Skills:</h3>
+                <p>
+                    Front-end Development: Proficient in HTML, CSS, and JavaScript, I craft visually appealing and responsive user interfaces that elevate the user experience.<br>
+                    Back-end Development: Experienced in server-side scripting and database management, I ensure seamless functionality and data integrity.<br>
+                    Frameworks: Well-versed in popular frameworks like React and Express, I leverage their power to build dynamic and scalable web applications.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box_content">
+            <h2>Projects</h2>
+            <div align="center">
+                <img src="resturant.jpg" alt="Profile Image" style="margin-top: 50px;">
+            </div>
+            <div class="text" style="margin-top: 40px;">
+                <h3>Restaurant website project</h3>
+                <p>
+                    I developed a dynamic restaurant website that seamlessly combines aesthetic design with functionality. This user-friendly site allows patrons to explore the restaurant's menu, make reservations online, and stay updated on special events. With a responsive layout, the website ensures an optimal viewing experience across various devices. The integration of vibrant visuals and smooth navigation enhances the overall user experience, providing a taste of the restaurant's ambiance before even stepping through the door.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box_content">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
