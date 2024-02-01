@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Aqsa Hafeez Agani - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: rgb(86, 126, 185);
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .box_content {
+            background-color: white;
+            width: 100%;
+            max-width: 800px;
+            margin-top: 20px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+        }
+
+        .box_content img {
+            max-width: 100%;
+            height: auto;
+            margin-right: 20px; 
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: rgb(86, 126, 185);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Aqsa Hafeez Agani</h1>
+        <h4>Web Developer</h4>
+        <h4><a href="https://www.linkedin.com/in/aqsathedeveloper/"> Linkedin</a></h4>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container" id="about">
+        <div class="box_content">
+            <div align="center">
+                <h3>About me</h3>
+                <img src="Capture.JPG" alt="Profile Image" style="width: 800px; height: 200px;">
+            </div>
+            <div class="text" style="margin-top: 50px;">
+                <h3>Introduction:</h3>
+                <p>
+                    Welcome to my web developer portfolio! I'm Aqsa, a passionate and detail-oriented web developer with a focus on creating interactive and user-friendly websites. With a strong foundation in front-end and back-end technologies, I bring ideas to life through clean, efficient, and modern code.
+                </p>
+                <h3 style="font-size: large;">Skills:</h3>
+                <p>
+                    Front-end Development: Proficient in HTML, CSS, and JavaScript, I craft visually appealing and responsive user interfaces that elevate the user experience.<br>
+                    Back-end Development: Experienced in server-side scripting and database management, I ensure seamless functionality and data integrity.<br>
+                    Frameworks: Well-versed in popular frameworks like React and Express, I leverage their power to build dynamic and scalable web applications.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="projects">
+        <div class="box_content">
+            
+            <div align="center">
+                <h2>Projects</h2>
+                <img src="resturant.jpg" alt="Project Image" style="width: 1600px; height: 200px;">
+            </div>
+            <div class="text" style="margin-top: 20px; margin-left: 30px;">
+                <h3>Restaurant website project</h3>
+                <p>
+                    I developed a dynamic restaurant website that seamlessly combines aesthetic design with functionality. This user-friendly site allows patrons to explore the restaurant's menu, make reservations online, and stay updated on special events. With a responsive layout, the website ensures an optimal viewing experience across various devices. The integration of vibrant visuals and smooth navigation enhances the overall user experience, providing a taste of the restaurant's ambiance before even stepping through the door.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="contact">
+        <div class="box_content">
+            <div>
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2022 Aqsa Hafeez Agani</p>
+    </footer>
+
+</body>
+</html>

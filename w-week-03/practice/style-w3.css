@@ -1,0 +1,47 @@
+.Container{
+    border: 2px solid black;
+    width: 200px;
+    height: 900px;
+    background-color: brown;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.Circle{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(207, 243, 8);
+    border-radius: 50%;
+}
+
+/* unvisited link */
+a:link {
+    color: green;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(128, 0, 0);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+  }
+  
+  /* selected link */
+  a:active {
+    color: yellow;
+  }
+
+  h1{
+    font-family: 'Honk', system-ui;
+    visibility: hidden;
+  }
+div.myIcon*{
+    width: 20px;
+    height: 20px;
+}
+
+

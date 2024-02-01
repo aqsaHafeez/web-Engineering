@@ -1,0 +1,19 @@
+div p {
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+}
+p:last-child{
+    background-color: rgb(242, 134, 215);
+}
+p:first-child{
+    background-color: rgb(78, 78, 135);
+    overflow: scroll;
+}
+p:nth-child(2){
+    background-color: rgb(232, 96, 114); 
+    overflow-x: scroll; 
+    overflow-y: hidden; 
+    
+}

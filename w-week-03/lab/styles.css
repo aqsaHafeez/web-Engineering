@@ -1,0 +1,27 @@
+button:hover{
+    font-size: 1.1em;
+    background-color: hsl(106, 90%, 70%);
+}
+
+button:active{
+    background-color: hsl(106, 90%, 70%);
+}
+
+a:link{
+    font-size: 1.1em;
+    color: hsl(221, 100%, 74% );
+}
+
+a:hover{
+    font-size: 1.1em;
+    color: hsl(221, 100%, 86%);
+}
+
+a:active{
+    font-size: 1.1em;
+    color: hsl(240, 100%, 58%);
+}
+
+a:visited{
+    color: hsl(0, 0%, 75%);
+}

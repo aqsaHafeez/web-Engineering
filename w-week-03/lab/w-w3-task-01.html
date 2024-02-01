@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background-color: pink;
+    }
+
+    header, aside, article, footer {
+      margin: 10px;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header, footer {
+      width: 100%;
+      background-color: rgb(108, 195, 224);
+    }
+
+    aside {
+      order: 1; 
+      width: 300px; 
+      background-color: rgb(108, 154, 247);
+    }
+
+    article {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      order: 2;
+      background-color: rgb(241, 92, 154); 
+      width: 500px;
+    }
+
+    img {
+      width: 120px;
+      height: 120px;
+      margin: 10px;
+    }
+  </style>
+  <title>Flexbox Layout</title>
+</head>
+<body>
+
+  <header>
+    <h1>Header</h1>
+  </header>
+
+  <div style="display: flex; flex: 1;">
+
+    <aside>
+        <br><br><br><br><br><br>
+      <h1>Aside</h1>
+    </aside>
+
+    <article " >
+      <h1 style="margin-top: 150px;">Article</h1>
+      <div> <img src="image1.jpg" alt="Image 1">
+        <img src="image2.jpg" alt="Image 2">
+        <img src="image3.jpg" alt="Image 3"></div>
+      
+    </article>
+
+  </div>
+
+  <footer>
+    <h1>Footer</h1>
+  </footer>
+
+</body>
+</html>
