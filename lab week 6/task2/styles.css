@@ -1,0 +1,20 @@
+body {
+    background-color: #c5dbdf;
+    padding: 20px;
+}
+.container {
+    width: 400px;
+    margin: auto;
+    background-color: #73b4b8;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+button:hover {
+    background-color: #0056b3;
+}
+p#message {
+    margin-top: 20px;
+    font-weight: bold;
+}
+  

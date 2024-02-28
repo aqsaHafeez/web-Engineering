@@ -1,0 +1,20 @@
+body{
+  background-color: #ec9c9c;
+  padding: 20px;
+}
+  
+.container{
+  width: 600px;
+  margin: auto;
+  background-color: #b06969;
+  padding: 20px;
+  border-radius: 8px;
+}
+button:hover{
+    background-color: #0056b3;
+}
+li{
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ccc;
+}
